@@ -1,0 +1,44 @@
+body{
+    margin: 0 auto;
+    font-family: Arial,sans-serif;
+    width:80vw;
+}
+h1{
+    text-align: center;
+    margin: 20px auto;
+    
+}
+table{
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #E8E8E8;
+}
+th {
+    font-weight: bold;
+    background-color: navy;
+    color: white;
+}
+footer{
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+}
+button {
+    font-weight: bold;
+    width:20%; 
+    margin-left:40%; 
+    margin-right:40%;
+    text-decoration: none;
+    background-color: navy;
+    padding: 12px 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+}

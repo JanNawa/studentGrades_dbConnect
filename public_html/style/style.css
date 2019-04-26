@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+    font-family: Arial,sans-serif;
+    width:80vw;
+}
+h1{
+    text-align: center;
+}
+#fillForm{
+    width: 40vw;
+    margin:0 auto;
+    border-radius: 20px;
+    background-color: #E8E8E8;
+    padding: 20px;
+}
+.col40{
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+}
+.col60{
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+legend{
+    font-size:20px;
+    font-weight: bold;
+}
+fieldset{
+    margin: 10px 10px;
+    border-radius: 8px;
+}
+#submit{
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    background-color: navy;
+    border-radius: 8px;
+    padding: 12px 40px;
+    font-size: 20px;
+    color: white;
+}
+#showAllButton{
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+    border-radius: 8px;
+    padding: 12px 40px;
+    font-size: 20px;
+    color: white;
+}

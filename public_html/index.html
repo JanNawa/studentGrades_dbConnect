@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Assignment 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css"/>
+    </head>
+    <body>
+        <h1>Assignment 5</h1>
+        <form id="fillForm" action="dbConnect/AddRecord.php" method="POST">
+            <fieldset>
+                <legend>Student ID</legend>
+                <div class="col40">
+                    Student ID :
+                </div>
+                <div class="col60">
+                    <input type="text" name="studentID" required/><br> 
+                </div>          
+            </fieldset>
+            <fieldset>
+                <legend>Subjects</legend>
+                <div class="col40">
+                    Java 2 :
+                </div>
+                <div class="col60">
+                    <select name="Java">
+                        <option value="A">A (80-100)</option>
+                        <option value="B">B (70-79)</option>
+                        <option value="C">C (60-69)</option>
+                        <option value="D">D (50-59)</option>
+                        <option value="F">F (fail)</option>
+                        <option value="W">W (withdraw)</option>
+                    </select><br>
+                </div> 
+                <div class="col40">
+                    Software Development :
+                </div>
+                <div class="col60">
+                    <select name="Software">
+                        <option value="A">A (80-100)</option>
+                        <option value="B">B (70-79)</option>
+                        <option value="C">C (60-69)</option>
+                        <option value="D">D (50-59)</option>
+                        <option value="F">F (fail)</option>
+                        <option value="W">W (withdraw)</option>
+                    </select><br>
+                </div> 
+                <div class="col40">
+                    Web Programming :
+                </div>
+                <div class="col60">
+                    <select name="Web">
+                        <option value="A">A (80-100)</option>
+                        <option value="B">B (70-79)</option>
+                        <option value="C">C (60-69)</option>
+                        <option value="D">D (50-59)</option>
+                        <option value="F">F (fail)</option>
+                        <option value="W">W (withdraw)</option>
+                    </select><br>
+                </div>
+                <div class="col40">
+                    Linux :
+                </div>
+                <div class="col60">
+                    <select name="Linux">
+                        <option value="A">A (80-100)</option>
+                        <option value="B">B (70-79)</option>
+                        <option value="C">C (60-69)</option>
+                        <option value="D">D (50-59)</option>
+                        <option value="F">F (fail)</option>
+                        <option value="W">W (withdraw)</option>
+                    </select><br>
+                </div>
+                <div class="col40">
+                    User Interface Design :
+                </div>
+                <div class="col60">
+                    <select name="UI">
+                        <option value="A">A (80-100)</option>
+                        <option value="B">B (70-79)</option>
+                        <option value="C">C (60-69)</option>
+                        <option value="D">D (50-59)</option>
+                        <option value="F">F (fail)</option>
+                        <option value="W">W (withdraw)</option>
+                    </select><br>
+                </div>
+            </fieldset>
+            <input id="submit" type="submit" value="Add Data">
+        </form>
+        <form action="dbConnect/RetrieveRecord.php" method="POST">
+            <input id="showAllButton" type="submit" value="Show All Records">
+        </form>
+    </body>
+</html>
